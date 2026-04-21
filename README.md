@@ -2,14 +2,12 @@
 
 Overview of all Magento 2 extensions with current versions and changelogs.
 
-*Last updated: 2026-04-21 15:21 UTC — 257 extension(s)*
+*Last updated: 2026-04-21 20:08 UTC — 255 extension(s)*
 
 ## Extensions Overview
 
 | Extension | Version | Released | Description |
 |-----------|---------|----------|-------------|
-| [frappe-module-backoffice](https://github.com/enobis-GmbH/frappe-module-backoffice) | `1.0.11` | 2026-01-28 09:35 | — |
-| [frappe-project-enobis](https://github.com/enobis-GmbH/frappe-project-enobis) | — | — | — |
 | [grafx-studio-data-connector-package](https://github.com/enobis-GmbH/grafx-studio-data-connector-package) | — | — | — |
 | [grafx-studio-data-connector-relatial-package](https://github.com/enobis-GmbH/grafx-studio-data-connector-relatial-package) | — | — | — |
 | [grafx-studio-media-connector-package](https://github.com/enobis-GmbH/grafx-studio-media-connector-package) | — | — | — |
@@ -262,83 +260,13 @@ Overview of all Magento 2 extensions with current versions and changelogs.
 | [mautic-magento-dynamictoken](https://github.com/enobis-GmbH/mautic-magento-dynamictoken) | `1.0.1` | 2026-04-14 21:18 | Provides Magento transaction data tokens for use in Mautic email templates and landing pages. |
 | [mautic-magento-integration](https://github.com/enobis-GmbH/mautic-magento-integration) | `1.0.0` | 2026-04-14 14:14 | — |
 | [mautic-magento-transaction](https://github.com/enobis-GmbH/mautic-magento-transaction) | `1.0.1` | 2026-04-12 12:02 | Stores Magento transaction data per contact |
-| [mautic-twig-enhancements](https://github.com/enobis-GmbH/mautic-twig-enhancements) | `1.0.2` | 2026-04-15 12:10 | — |
-| [mautic-uuid](https://github.com/enobis-GmbH/mautic-uuid) | `1.0.1` | 2026-04-15 13:39 | — |
-| [theme-frontend-relatial-blank](https://github.com/enobis-GmbH/theme-frontend-relatial-blank) | `1.0.17` | 2025-11-20 14:15 | Relatial Theme for Magento2.x |
+| [mautic-twig-enhancements](https://github.com/enobis-GmbH/mautic-twig-enhancements) | `1.0.2` | — | — |
+| [mautic-uuid](https://github.com/enobis-GmbH/mautic-uuid) | — | — | — |
+| [theme-frontend-relatial-blank](https://github.com/enobis-GmbH/theme-frontend-relatial-blank) | — | — | Relatial Theme for Magento2.x |
 
 ---
 
 ## Details & Changelogs
-
-### [frappe-module-backoffice](https://github.com/enobis-GmbH/frappe-module-backoffice)
-
-**Current version:** `1.0.11` (released 2026-01-28 09:35)
-
-<details>
-<summary>Version History (12 releases)</summary>
-
-| Version | Date |
-|---------|------|
-| `1.0.11` | 2026-01-28 09:35 |
-| `1.0.10` | 2025-12-11 14:48 |
-| `1.0.9` | 2025-12-01 13:56 |
-| `1.0.8` | 2025-08-04 10:33 |
-| `1.0.7` | 2025-03-05 07:13 |
-| `1.0.6` | 2025-03-04 13:44 |
-| `1.0.5` | 2025-02-24 13:29 |
-| `1.0.4` | 2025-02-18 16:44 |
-| `1.0.3` | 2025-02-18 16:26 |
-| `1.0.2` | 2025-02-18 14:59 |
-| `1.0.1` | 2025-02-14 12:28 |
-| `1.0.0` | 2025-02-14 12:28 |
-
-</details>
-
-<details>
-<summary>Commit History (21 commits)</summary>
-
-| SHA | Date | Message | Author |
-|-----|------|---------|--------|
-| [`eef47f5`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/eef47f562437758cdd949ee0748b2d2a30c6da46) | 2026-01-28 09:35 | Version: 1.0.11 - Totalhours added | karl.buedding@enobis.de |
-| [`70d9711`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/70d9711cff07a7c20de24ebbadda0d67c98ea39d) | 2025-12-11 14:48 | Version: 1.0.10 - Added Ticket-Timetracker, Added Fields to Tickets | karl.buedding@enobis.de |
-| [`16fd016`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/16fd016e879c67da027d89c147c1b56f55ece518) | 2025-12-01 13:56 | feat: Add 'project' link field, extend 'Status' options with 'Deleted', and set doctype row format to 'Dynamic'. | Karl Büdding |
-| [`aeee353`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/aeee3531d0afb537c54812343b0e70abb965ce4f) | 2025-08-04 10:33 | Version: 1.0.8 | karlbuedding-enobis |
-| [`da931aa`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/da931aa0c5d31cc44d23f74f650ee07b6d7119d9) | 2025-03-05 07:13 | Version: 1.0.7 | karlbuedding-enobis |
-| [`3c21f43`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/3c21f437b88a6b54815ee8c170422fbfd72a8e81) | 2025-03-04 13:44 | Version: 1.0.6 | karlbuedding-enobis |
-| [`c2a14bd`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/c2a14bdf124f79893f969a0336044843d5acaa31) | 2025-02-24 13:29 | Code bei Entities eingeführt | karlbuedding-enobis |
-| [`78a4263`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/78a4263dac11d9390897a1646d48dee3db59e259) | 2025-02-18 16:44 | V1.0.4 - Add Date | karlbuedding-enobis |
-| [`81c85d0`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/81c85d008a18a2feb03763f0d75b1334a976c0ea) | 2025-02-18 16:26 | Version-Field | karlbuedding-enobis |
-| [`f81f4f9`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/f81f4f91019709c19250ed7a9e7c6afc5020d359) | 2025-02-18 14:59 | Changes to BO_System and BO_System_Update | karlbuedding-enobis |
-| [`1074dc0`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/1074dc07c45390f6725344e2f2c0ecbca064ccac) | 2025-02-18 08:56 | BO_System_Update & BO_Ticket | karlbuedding-enobis |
-| [`a76d41e`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/a76d41e1436d4bc4c31fc64a3df14b13534836a8) | 2025-02-14 12:28 | Route Workspace | karlbuedding-enobis |
-| [`99a863a`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/99a863ace2383c06bbb95ecd73da76ef15be4dda) | 2025-02-13 12:46 | Added App and App-Logo | karlbuedding-enobis |
-| [`c830dde`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/c830dde0838fffb19261afe8946eb4a6c73261c8) | 2025-01-31 11:12 | Update | karlbuedding-enobis |
-| [`90647fb`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/90647fb97aab29a047c14281075d17554b78ac50) | 2025-01-29 17:02 | Merge branch 'main' of https://github.com/supportenobis/frappe-backoffice | karlbuedding-enobis |
-| [`fe5934b`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/fe5934ba324b80a1202757b933172bba5676cd3d) | 2025-01-29 16:58 | Backoffice | karlbuedding-enobis |
-| [`413b6ac`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/413b6ac77e4204088d5e1d13241d9541df4bd010) | 2025-01-23 21:40 | add validation to url field | markus.goering |
-| [`5ed423d`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/5ed423d61bebac7289c3a8954ab458b901159ca4) | 2025-01-23 14:52 | Renamed BO_SYSTEMS to BO_SYSTEM, Added BO_CUSTOMER | karlbuedding-enobis |
-| [`10387db`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/10387dbf275a78e60cccbe6c7a51cd5cf3a07bbe) | 2025-01-21 10:34 | Added Doctype BO_SYSTEMS | karlbuedding-enobis |
-| [`798507b`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/798507be0976315d13be0e1580d918fa391f9189) | 2025-01-20 16:11 | Initial Version 0.0.1 | karlbuedding-enobis |
-| [`654c39a`](https://github.com/enobis-GmbH/frappe-module-backoffice/commit/654c39ae14d94b1439781738487f7357f74ac523) | 2025-01-20 16:00 | Initial commit | supportenobis |
-
-</details>
-
----
-
-### [frappe-project-enobis](https://github.com/enobis-GmbH/frappe-project-enobis)
-
-**Current version:** no release
-
-<details>
-<summary>Commit History (1 commits)</summary>
-
-| SHA | Date | Message | Author |
-|-----|------|---------|--------|
-| [`fb51c2e`](https://github.com/enobis-GmbH/frappe-project-enobis/commit/fb51c2e7cb5e84896265ebfe6092ef0459a14be3) | 2026-01-28 15:22 | Basics | karl.buedding@enobis.de |
-
-</details>
-
----
 
 ### [grafx-studio-data-connector-package](https://github.com/enobis-GmbH/grafx-studio-data-connector-package)
 
@@ -15051,53 +14979,13 @@ Stores Magento transaction data per contact
 
 ### [mautic-twig-enhancements](https://github.com/enobis-GmbH/mautic-twig-enhancements)
 
-**Current version:** `1.0.2` (released 2026-04-15 12:10)
-
-<details>
-<summary>Version History (2 releases)</summary>
-
-| Version | Date |
-|---------|------|
-| `1.0.2` | 2026-04-15 12:10 |
-| `1.0.1` | 2026-04-08 12:45 |
-
-</details>
-
-<details>
-<summary>Commit History (2 commits)</summary>
-
-| SHA | Date | Message | Author |
-|-----|------|---------|--------|
-| [`9e765de`](https://github.com/enobis-GmbH/mautic-twig-enhancements/commit/9e765de97d4c076acb50babead7fa72f5b34c88e) | 2026-04-15 12:10 | Enhance Twig processing and token resolution | karlbuedding-enobis |
-| [`7475c9f`](https://github.com/enobis-GmbH/mautic-twig-enhancements/commit/7475c9fc05848b6061f5df89f078b23ea6659794) | 2026-04-08 12:45 | Add Mautic Twig Enhancements plugin | karlbuedding-enobis |
-
-</details>
+**Current version:** `1.0.2` (released —)
 
 ---
 
 ### [mautic-uuid](https://github.com/enobis-GmbH/mautic-uuid)
 
-**Current version:** `1.0.1` (released 2026-04-15 13:39)
-
-<details>
-<summary>Version History (2 releases)</summary>
-
-| Version | Date |
-|---------|------|
-| `1.0.1` | 2026-04-15 13:39 |
-| `1.0.0` | 2026-04-15 12:32 |
-
-</details>
-
-<details>
-<summary>Commit History (2 commits)</summary>
-
-| SHA | Date | Message | Author |
-|-----|------|---------|--------|
-| [`589b77a`](https://github.com/enobis-GmbH/mautic-uuid/commit/589b77a79833d404195e07c10d6bd0267bd01bef) | 2026-04-15 13:39 | Add PageSubscriber to associate UUID with Lead | karlbuedding-enobis |
-| [`02adba4`](https://github.com/enobis-GmbH/mautic-uuid/commit/02adba4e755c7c917a47cb6484f6e530c7eda33a) | 2026-04-15 12:32 | Add Mautic UUID plugin and generation tools | karlbuedding-enobis |
-
-</details>
+**Current version:** no release
 
 ---
 
@@ -15105,172 +14993,6 @@ Stores Magento transaction data per contact
 
 Relatial Theme for Magento2.x
 
-**Current version:** `1.0.17` (released 2025-11-20 14:15)
-
-<details>
-<summary>Version History (100 releases)</summary>
-
-| Version | Date |
-|---------|------|
-| `1.0.17` | 2025-11-20 14:15 |
-| `1.0.16` | 2025-11-20 09:29 |
-| `1.0.15` | 2025-11-18 07:58 |
-| `1.0.14` | 2025-09-19 09:58 |
-| `1.0.13` | 2025-08-21 07:58 |
-| `1.0.12` | 2025-08-20 13:49 |
-| `1.0.11` | 2025-07-02 08:48 |
-| `1.0.10` | 2025-06-16 14:49 |
-| `1.0.9` | 2025-06-13 11:22 |
-| `1.0.8` | 2025-05-21 13:26 |
-| `1.0.7` | 2025-05-02 13:12 |
-| `1.0.6` | 2025-03-19 08:34 |
-| `1.0.5` | 2025-03-18 14:56 |
-| `1.0.4` | 2025-03-16 17:31 |
-| `1.0.3` | 2025-03-14 13:14 |
-| `1.0.2` | 2025-03-13 14:15 |
-| `1.0.1` | 2025-02-12 09:38 |
-| `1.0.0` | 2025-02-03 10:24 |
-| `0.6.0-rc5` | 2025-01-31 14:23 |
-| `0.6.0-rc4` | 2024-12-06 10:45 |
-| `0.6.0-rc3` | 2024-11-27 15:10 |
-| `0.6.0-rc2` | 2024-11-27 11:00 |
-| `0.6.0-rc1` | 2024-11-26 11:37 |
-| `0.5.79` | 2025-02-03 10:53 |
-| `0.5.78` | 2024-12-06 10:50 |
-| `0.5.77` | 2024-11-27 15:41 |
-| `0.5.76` | 2024-11-19 09:11 |
-| `0.5.75` | 2024-11-08 10:39 |
-| `0.5.74` | 2024-11-07 13:49 |
-| `0.5.73` | 2024-11-06 13:16 |
-| `0.5.72` | 2024-11-05 09:55 |
-| `0.5.71` | 2024-10-24 15:42 |
-| `0.5.70` | 2024-09-24 09:24 |
-| `0.5.69` | 2024-09-19 13:28 |
-| `0.5.68` | 2024-09-13 13:54 |
-| `0.5.67` | 2024-09-09 09:34 |
-| `0.5.66` | 2024-09-06 09:53 |
-| `0.5.65` | 2024-09-05 14:18 |
-| `0.5.64` | 2024-09-05 13:42 |
-| `0.5.63` | 2024-09-05 10:27 |
-| `0.5.62` | 2024-08-22 13:02 |
-| `0.5.61` | 2024-08-21 11:49 |
-| `0.5.60` | 2024-08-09 07:30 |
-| `0.5.59` | 2024-08-01 12:16 |
-| `0.5.58` | 2024-08-01 11:44 |
-| `0.5.57` | 2024-08-01 11:38 |
-| `0.5.56` | 2024-07-25 11:50 |
-| `0.5.55` | 2024-06-13 06:02 |
-| `0.5.54` | 2024-06-04 13:16 |
-| `0.5.53` | 2024-06-04 08:19 |
-| `0.5.52` | 2024-06-04 07:16 |
-| `0.5.51` | 2024-06-03 17:59 |
-| `0.5.50` | 2024-05-31 09:52 |
-| `0.5.49` | 2024-05-27 10:54 |
-| `0.5.48` | 2024-05-23 12:52 |
-| `0.5.47` | 2024-05-21 09:58 |
-| `0.5.46` | 2024-05-14 13:07 |
-| `0.5.45` | 2024-05-03 07:48 |
-| `0.5.44` | 2024-04-24 12:02 |
-| `0.5.43` | 2024-04-09 12:56 |
-| `0.5.42` | 2024-04-09 07:23 |
-| `0.5.41` | 2024-04-05 13:21 |
-| `0.5.40` | 2024-04-05 08:53 |
-| `0.5.39` | 2024-04-05 07:48 |
-| `0.5.38` | 2024-04-05 07:31 |
-| `0.5.37` | 2024-04-04 15:18 |
-| `0.5.36` | 2024-03-28 11:55 |
-| `0.5.35` | 2024-03-28 11:00 |
-| `0.5.34` | 2024-03-14 08:50 |
-| `0.5.33` | 2024-03-14 08:39 |
-| `0.5.32` | 2024-03-13 12:21 |
-| `0.5.31` | 2024-03-12 16:26 |
-| `0.5.30` | 2024-02-29 11:49 |
-| `0.5.29` | 2024-02-26 11:19 |
-| `0.5.28` | 2024-02-20 09:45 |
-| `0.5.27` | 2024-02-14 08:12 |
-| `0.5.26` | 2024-02-07 09:39 |
-| `0.5.25` | 2024-02-01 07:11 |
-| `0.5.24` | 2024-01-24 08:18 |
-| `0.5.23` | 2024-01-12 10:28 |
-| `0.5.22` | 2023-12-19 10:21 |
-| `0.5.21` | 2023-12-18 11:13 |
-| `0.5.20` | 2023-12-15 14:06 |
-| `0.5.19` | 2023-12-13 07:05 |
-| `0.5.18` | 2023-12-12 13:05 |
-| `0.5.17` | 2023-12-12 07:55 |
-| `0.5.16` | 2023-12-08 12:06 |
-| `0.5.15` | 2023-12-07 15:38 |
-| `0.5.14` | 2023-11-17 13:18 |
-| `0.5.13` | 2023-11-17 09:46 |
-| `0.5.12` | 2023-11-15 14:08 |
-| `0.5.11` | 2023-11-14 09:35 |
-| `0.5.10` | 2023-11-06 12:56 |
-| `0.5.9` | 2023-10-31 10:21 |
-| `0.5.8` | 2023-10-11 10:54 |
-| `0.5.7` | 2023-10-06 12:28 |
-| `0.5.6` | 2023-10-04 14:16 |
-| `0.5.5` | 2023-09-22 09:50 |
-| `0.5.4` | 2023-09-22 07:55 |
-| `0.5.3` | 2023-09-14 15:24 |
-
-</details>
-
-<details>
-<summary>Commit History (50 commits)</summary>
-
-| SHA | Date | Message | Author |
-|-----|------|---------|--------|
-| [`b8edbfd`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/b8edbfdbcc5924264aa3c49f371b8458b3a04c31) | 2025-11-20 14:15 | Version: 1.0.17 | adam.schurmann |
-| [`6788407`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/67884070d3d5a03592f93f5058984d3193638f4b) | 2025-11-20 14:14 | - CSS fix for Magento because changes to the CSS were rolled out by Grafx | adam.schurmann |
-| [`54dc1e4`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/54dc1e4c415d4bd53e21cc6847273651bb3602ce) | 2025-11-20 09:29 | Version: 1.0.16 | adam.schurmann |
-| [`4327f55`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/4327f55ebd74aaf44712284377cb2f28c76c19f4) | 2025-11-20 09:29 | - Adjustments for the logo in Grafx Editor | adam.schurmann |
-| [`98644b5`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/98644b557203bb8e98d4064a724f35188ec41c02) | 2025-11-18 07:58 | Version: 1.0.15 - Replaced RELATIAL_ logo.svg | karl.buedding@enobis.de |
-| [`0debea8`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/0debea8d44642808402f68511660c55b7432b94c) | 2025-09-19 09:58 | Version: 1.0.14 | adam.schurmann |
-| [`a5fea9d`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/a5fea9d8e8cff83529b04399324f6f87815d8455) | 2025-09-19 09:56 | Fix for: | adam.schurmann |
-| [`81803af`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/81803afaf9df6a54a3f4ab7da32e3dc62e8e2967) | 2025-08-21 07:58 | Version: 1.0.13 - Move of Brand-Variables to better locations | karl.buedding@enobis.de |
-| [`84f50ad`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/84f50adca1ee1b7cd427f96d7cba7f86dabbfab1) | 2025-08-20 13:49 | Version: 1.0.12 - kleinere CSS-Anpassung in Richtung Relamove | karlbuedding-enobis |
-| [`f3b250b`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/f3b250b370b262d5a859a9e28198cbddcb340334) | 2025-07-02 08:48 | Version: 1.0.11 | adam.schurmann |
-| [`738f2af`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/738f2af0f0dcb7c9fc501f531e2f07e42a2b0b32) | 2025-07-02 08:47 | - Set colours as variable | adam.schurmann |
-| [`1cc69e2`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/1cc69e2495ecd71ad19d8b7dc087ee305d62a4ef) | 2025-06-16 14:49 | Version: 1.0.10 | adam.schurmann |
-| [`7b85f6e`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/7b85f6e3257e0b7924c783991dd1ec4958252306) | 2025-06-16 14:47 | - Better backwards compatibility | adam.schurmann |
-| [`f2d8915`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/f2d891555c4a5df2442d8b72e43c7fe8d375c629) | 2025-06-13 11:22 | Version: 1.0.9 | adam.schurmann |
-| [`39e446e`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/39e446e9dd29e3043e123c858072a3d9e90210c1) | 2025-06-13 11:21 | - Transfer of individual CSS customisations from Relamove | adam.schurmann |
-| [`f16db2c`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/f16db2c9a453ff7baf4bbe5a16fec7b5a0dd04a5) | 2025-05-21 13:26 | Version: 1.0.8 | adam.schurmann |
-| [`5851951`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/58519519a71690794d2b76897394d81f87c459d7) | 2025-05-21 13:25 | - Customised display for Qty dropdown | adam.schurmann |
-| [`58b5ad4`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/58b5ad4946aa182baecdac07fbee8252a4e35929) | 2025-05-02 13:12 | Version: 1.0.7 | adam.schurmann |
-| [`5c0ab47`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/5c0ab47a0e322adabf6ef86c23b31d83051938d4) | 2025-05-02 13:11 | - Small optimisation for the language switcher | adam.schurmann |
-| [`6ffccf3`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/6ffccf3ffa60a3db157a8e1e027c0e6265256f2f) | 2025-03-19 08:34 | Version: 1.0.6 | adam.schurmann |
-| [`fecce9c`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/fecce9c465ad9b8187eb7abeafeb1f5ad1063198) | 2025-03-19 08:29 | Fix for - Exclude the formatting of buttons in Grafx-Studio | adam.schurmann |
-| [`1dc4f22`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/1dc4f22b1b632b3b5f7c9c8d9b96158f7b3ad3dd) | 2025-03-18 14:56 | Version: 1.0.5 | adam.schurmann |
-| [`cc19bc5`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/cc19bc5abfa773fb6cdc40bb20a12746719189a7) | 2025-03-18 14:53 | Update for - Exclude the formatting of buttons in Grafx-Studio | adam.schurmann |
-| [`d492c78`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/d492c78903fa3cbf555bf544f26c5b189ffb674b) | 2025-03-16 17:31 | Version 1.0.4 | Markus Göring |
-| [`ae0d8c1`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/ae0d8c1a00e23168cf5656726708ee26cb208f2c) | 2025-03-16 17:31 | Text changes | Markus Göring |
-| [`7bd9455`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/7bd9455180fc3e1ad7d8750a4cd312a1fb18e8ba) | 2025-03-14 13:14 | Version: 1.0.3 | adam.schurmann |
-| [`d99226b`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/d99226b0206face29a9236a33e95c10e9af9b338) | 2025-03-14 12:54 | - text changes | adam.schurmann |
-| [`acb9e1e`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/acb9e1e183bc26fb8e26b38803fecbf30744b4fd) | 2025-03-13 14:15 | Version: 1.0.2 | adam.schurmann |
-| [`8731419`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/8731419ec50eee0fc214a6d69aff60b948044e70) | 2025-03-13 14:12 | - Exclude the formatting of buttons in Grafx-Studio | adam.schurmann |
-| [`a0d2504`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/a0d25046d30537af8918e951ec977e238a745406) | 2025-02-12 09:38 | Version: 1.0.1 | adam.schurmann |
-| [`a341c67`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/a341c6797a180df308b6d671d1f9c74f8312ac33) | 2025-02-12 09:36 | - Configuring the spacing of the logo on the Chili Editor and Grafx Studio pages | adam.schurmann |
-| [`5a734b3`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/5a734b3445715b2354b0faaaea5cafe2371ee46b) | 2025-02-03 10:24 | Version 1.0.0 | Markus Göring |
-| [`95c4e1a`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/95c4e1a54d397110d5d7f6a4ac73d1be61993e11) | 2025-02-03 10:22 | merge  0.6.0-rc5 | Markus Göring |
-| [`a3a0381`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/a3a03817501b872d80eade52ac506a3ce1b785be) | 2024-12-06 10:50 | Version: 0.5.78 | adam.schurmann |
-| [`a38bb26`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/a38bb26958c8b8bc50638c6763bdf626f6c38789) | 2024-12-06 10:48 | - Optimizations in the checkout | adam.schurmann |
-| [`71abb9c`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/71abb9ce0ae40fc615c1f931348145a922edc163) | 2024-11-27 15:41 | Version: 0.5.77 - added translation pl_PL.csv, add additional translations | karlbuedding-enobis |
-| [`2157ba6`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/2157ba6ee8805b20fb862190ee7c102a73a17cc2) | 2024-11-27 15:40 | Version: 0.6.0-rc3 - added pl_PL.csv for translation, added several additional translations | karlbuedding-enobis |
-| [`a10c88f`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/a10c88f6fe66249601a2aa89760370a312d6f618) | 2024-11-19 09:11 | Version: 0.5.76 | adam.schurmann |
-| [`badf518`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/badf518cae1d6197d40d668615fc1033402fd091) | 2024-11-19 09:09 | - background color menu bar active set default to transparent | adam.schurmann |
-| [`ffc8a57`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/ffc8a57fbb5425290ed3d04ca57fe43ed141f431) | 2024-11-08 10:39 | Version: 0.5.75 | adam.schurmann |
-| [`ba1a217`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/ba1a21759065357b32c33130796c6b7f99363132) | 2024-11-08 10:37 | small navigation active border fix | adam.schurmann |
-| [`1683ae7`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/1683ae7a826be861b1a56eb073aabc18d6fad8ad) | 2024-11-07 13:49 | Version: 0.5.74 | adam.schurmann |
-| [`e2d81a6`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/e2d81a626d1ea12b72bf953699aa2d804728e0a7) | 2024-11-07 13:46 | Optimized navigation with active highlight | adam.schurmann |
-| [`25b6fa3`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/25b6fa365b05d414d17984290d57af82db902514) | 2024-11-06 13:16 | Version: 0.5.73 | adam.schurmann |
-| [`f404cb7`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/f404cb7339e9beb19f1dd10549de47487ffb17b8) | 2024-11-06 13:15 | Graphical adaptations from projects | adam.schurmann |
-| [`7a7c39b`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/7a7c39b81b311b59055dde5f25d63e00f5fcd169) | 2024-11-05 09:55 | Version: 0.5.72 | adam.schurmann |
-| [`a44a739`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/a44a739ad7bdfe2523d2ab3dfae95472b1fb027b) | 2024-11-05 09:52 | Graphical adaptations from projects | adam.schurmann |
-| [`589eaf9`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/589eaf96084653d31c1e8ce9b9283c472c7f130a) | 2024-10-24 15:42 | Enobis_ThemeRelatialBlank | adam.schurmann |
-| [`a67fc47`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/a67fc47872bfb5b067a5a1d8e703baf476b9a078) | 2024-10-24 15:40 | Add Buttons Color for Chili Data Connector | adam.schurmann |
-| [`0db4470`](https://github.com/enobis-GmbH/theme-frontend-relatial-blank/commit/0db44707307318283d4d582e415539457ab5aff4) | 2024-09-24 09:24 | Version: 0.5.70 | adam.schurmann |
-
-</details>
+**Current version:** no release
 
 ---
