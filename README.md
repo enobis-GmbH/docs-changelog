@@ -2,7 +2,7 @@
 
 Overview of all Magento 2 extensions with current versions and changelogs.
 
-*Last updated: 2026-04-22 13:25 UTC — 23 extension(s)*
+*Last updated: 2026-04-22 13:34 UTC — 24 extension(s)*
 
 ## Extensions Overview
 
@@ -21,6 +21,7 @@ Overview of all Magento 2 extensions with current versions and changelogs.
 | [magento2-module-chili-integration-workfront](https://github.com/enobis-GmbH/magento2-module-chili-integration-workfront) | `1.2.0` | 2026-03-29 16:06 | — |
 | [magento2-module-chili-my-document](https://github.com/enobis-GmbH/magento2-module-chili-my-document) | `3.8.2` | 2026-04-14 14:23 | Add chili my document functionality to Magento2 |
 | [magento2-module-cost-center](https://github.com/enobis-GmbH/magento2-module-cost-center) | `1.9.1` | 2026-04-09 11:19 | — |
+| [magento2-module-flyeralarm-connector](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector) | `1.1.1` | 2026-04-13 13:53 | Magento 2 Module for Integration of Flyeralarm with Magento2 |
 | [magento2-module-grafx-document-lifecycle](https://github.com/enobis-GmbH/magento2-module-grafx-document-lifecycle) | `1.1.2` | 2026-04-09 12:09 | Module to record, manage and update grafx documents and their templates |
 | [magento2-module-grafx-studio](https://github.com/enobis-GmbH/magento2-module-grafx-studio) | `1.1.2` | 2026-04-09 12:23 | Implements Magento2-Connector for GrafxStudio |
 | [magento2-module-grafx-studio-media-connector](https://github.com/enobis-GmbH/magento2-module-grafx-studio-media-connector) | `0.9.0` | 2024-09-09 08:59 | Adds media connector for grafx studio to Magento2 |
@@ -1828,6 +1829,77 @@ Add chili my document functionality to Magento2
 | [`4f74c5b`](https://github.com/enobis-GmbH/magento2-module-cost-center/commit/4f74c5bfdd2adb61af689ef6608734b96eb5a2d6) | 2020-10-13 10:47 | Project-Feld ins Backend(Edit Order) aufgenommen | Karl Büdding |
 | [`23df26e`](https://github.com/enobis-GmbH/magento2-module-cost-center/commit/23df26e3967c769661492a2e6d28586bd5c4707e) | 2020-09-01 14:53 | 1.2.8 Add cost_center and project to rest api | Markus Göring |
 | [`4572dd0`](https://github.com/enobis-GmbH/magento2-module-cost-center/commit/4572dd074ea84c8edf03ef7aef889a33efb55b0d) | 2020-03-11 07:40 | Version 1.2.7.2 - Translations | Karl Büdding |
+
+</details>
+
+---
+
+### [magento2-module-flyeralarm-connector](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector)
+
+Magento 2 Module for Integration of Flyeralarm with Magento2
+
+**Current version:** `1.1.1` (released 2026-04-13 13:53)
+
+<details>
+<summary>Version History (14 releases)</summary>
+
+| Version | Date |
+|---------|------|
+| `1.1.1` | 2026-04-13 13:53 |
+| `1.1.0` | 2026-03-23 11:24 |
+| `1.0.0` | 2025-11-08 18:21 |
+| `0.8.6` | 2025-11-05 16:37 |
+| `0.8.5` | 2025-11-05 13:48 |
+| `0.8.4` | 2025-11-05 12:54 |
+| `0.8.3` | 2025-11-05 11:34 |
+| `0.8.2` | 2025-11-04 16:39 |
+| `0.8.1` | 2025-11-03 17:16 |
+| `0.8.0` | 2025-10-31 15:19 |
+| `0.2.0` | 2025-10-30 19:23 |
+| `0.1.1` | 2025-10-30 11:19 |
+| `0.1.0` | 2025-10-29 14:34 |
+| `0.0.1` | 2025-10-29 14:29 |
+
+</details>
+
+<details>
+<summary>Commit History (33 commits)</summary>
+
+| SHA | Date | Message | Author |
+|-----|------|---------|--------|
+| [`c50b568`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/c50b568a8a2520cd07e5204efc6a900d8b0df3f4) | 2026-04-13 13:53 | Version: 1.1.1 | Adam Schurmann |
+| [`7bd035c`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/7bd035cc33a65a22b7cb40c23d9e5ba5a6f48ed5) | 2026-04-13 13:29 | Logging removed from the module | Adam Schurmann |
+| [`28ae8c9`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/28ae8c9da95d41a27b1432b3bbc3b23aa670cb13) | 2026-03-23 11:24 | Version 1.1.0 | Gunnar Papke |
+| [`d17cb6e`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/d17cb6e8a64e5b2dd73ae4b0fc57a9201c8af2d5) | 2026-03-23 11:22 | Merge branch 'php83-compat' into dev | Gunnar Papke |
+| [`e97dda1`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/e97dda1f2084c8356316569e75824918e3c303b2) | 2026-03-23 11:21 | Tweak code | Gunnar Papke |
+| [`c49c293`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/c49c2934a514a85fa4c34c7fb986476fa35ad068) | 2026-03-23 11:14 | Allow PHP `8.3` | Gunnar Papke |
+| [`96d5b58`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/96d5b5823c9c50ac652b3b60b0f052101fa5dd1b) | 2025-11-08 18:21 | Version 1.0.0 | Markus Göring |
+| [`fa5fb96`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/fa5fb966d87c3301d67a1fb807cd018faf688961) | 2025-11-08 18:20 | Add multiple trackings feature | Markus Göring |
+| [`fb51e55`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/fb51e55882fceeba71ac296f9531df91931e2b1a) | 2025-11-05 16:37 | Version 0.8.6 | Markus Göring |
+| [`723d55b`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/723d55b3f57848efd94c643a49a260a9686f7094) | 2025-11-05 16:36 | Add shipment generation (untested) | Markus Göring |
+| [`26a593b`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/26a593b2a89bcfd5d308c4a086c521dfc6b2a373) | 2025-11-05 13:48 | Version 0.8.5 | Markus Göring |
+| [`24099fb`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/24099fbea2c0b1c08136f09d4c7f877ba3f19c46) | 2025-11-05 13:47 | Optimize order synchronization, ensure that external_status does not become empty after if it was already set | Markus Göring |
+| [`f207d3f`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/f207d3fb69429c01cef18a67f68d0d4024904b02) | 2025-11-05 13:32 | Code cleanup | Markus Göring |
+| [`372c361`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/372c361a694e2a34c769e7aef57f535d1a1aef00) | 2025-11-05 12:54 | Version 0.8.4 | Markus Göring |
+| [`0206cd1`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/0206cd14831f5fe193c607f7070dc96494f39d28) | 2025-11-05 12:53 | Fix always use website specific api_token | Markus Göring |
+| [`c8614af`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/c8614af675ee90a0f75adfb10e29b35e44026809) | 2025-11-05 11:34 | Version 0.8.3 | Markus Göring |
+| [`4ecceb5`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/4ecceb58377ad4f93f5e3cccd01da0ff33b67f61) | 2025-11-05 11:34 | Optimize syncing of external attributes to orderitem attributes (external_url, external_status and external_log) | Markus Göring |
+| [`d87f42f`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/d87f42f84c971fd5a67d73a0e5ea6ec7a6fc83b1) | 2025-11-05 11:27 | Optimize and neutralize wording | Markus Göring |
+| [`4de63cd`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/4de63cd9d946677833908e7d6368b8b1f0d2aedc) | 2025-11-04 16:39 | Version 0.8.2 | Markus Göring |
+| [`2bc0b5f`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/2bc0b5f487e1441aa3e9d598c9af0215bb5b0d29) | 2025-11-04 16:38 | Add print data upload | Markus Göring |
+| [`faa3055`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/faa3055839d7f95f886804a5fe9c12afb683176a) | 2025-11-03 17:16 | Version 0.8.1 | Markus Göring |
+| [`74cd4ab`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/74cd4abab933e3e4a6738e7bc32de3afefc3f6e2) | 2025-11-03 17:15 | Add order prefix configuration value (per website) | Markus Göring |
+| [`cb26e86`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/cb26e8685c17af583ec2a8665cf3d409eaf929cd) | 2025-10-31 15:19 | Version 0.8.0 | Markus Göring |
+| [`a9b4c9a`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/a9b4c9a94e1e702f409c932ae189603895aaa244) | 2025-10-31 15:19 | Add export order (adjust format and routes) | Markus Göring |
+| [`0bbaca5`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/0bbaca53a4405f27d19b721a2ec820049cf20890) | 2025-10-30 19:23 | Version 0.2.0 | Markus Göring |
+| [`abe641e`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/abe641e8c2a880089c953544d35a2e13b74fe508) | 2025-10-30 19:22 | Hide configuration options api_auth_url, api_client_id, api_client_secret, production_time | Markus Göring |
+| [`f5e5fe3`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/f5e5fe350e30f63c29aa44311bee757f8978ae15) | 2025-10-30 11:19 | Version 0.1.1 | Markus Göring |
+| [`16ba2f1`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/16ba2f12eaaf24737800655f11a2940280c4df22) | 2025-10-30 11:18 | Version 0.1.1 | Markus Göring |
+| [`f455e4a`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/f455e4a81b364655ca91831f812d1bf5dca1bd3c) | 2025-10-29 14:34 | Version 0.1.0 | Markus Göring |
+| [`e99444d`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/e99444de295bc8238b88c335ccd1cb04e146906e) | 2025-10-29 14:32 | Fix setup update data to correct version | Markus Göring |
+| [`1cb2d22`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/1cb2d22cf2861d62d32ce80d3b71898b2d75df1c) | 2025-10-29 14:29 | Version 0.0.1 | Markus Göring |
+| [`83a2e4f`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/83a2e4fbbb3668e10256e5cb7495fc7f3f05c613) | 2025-10-29 14:26 | Change wmd to flyeralarm | Markus Göring |
+| [`7f68d3a`](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector/commit/7f68d3a5efabcbe0b17a29b9128f48b1f8ec01ed) | 2025-10-27 15:06 | Add initial version, 1:1 clone of enobis/module-wmd-connector 0.5.4 without any changes | Markus Göring |
 
 </details>
 
