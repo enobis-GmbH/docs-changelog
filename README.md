@@ -2,7 +2,7 @@
 
 Overview of all Magento 2 extensions with current versions and changelogs.
 
-*Last updated: 2026-04-27 06:15 UTC — 24 extension(s)*
+*Last updated: 2026-04-28 06:17 UTC — 24 extension(s)*
 
 ## Extensions Overview
 
@@ -19,11 +19,11 @@ Overview of all Magento 2 extensions with current versions and changelogs.
 | [magento2-module-chili-editor-webhook](https://github.com/enobis-GmbH/magento2-module-chili-editor-webhook) | `1.1.1` | 2026-03-13 15:29 | Magento 2 Module to Add Chili Events to Mageplaza Webhook Module |
 | [magento2-module-chili-headless](https://github.com/enobis-GmbH/magento2-module-chili-headless) | `0.3.3` | 2025-02-07 14:17 | Add chili headless functionality to Magento2. Allows common chili tasks via REST web api, e.g. create chili document, create document and directly consume outputs as pdf. |
 | [magento2-module-chili-integration-workfront](https://github.com/enobis-GmbH/magento2-module-chili-integration-workfront) | `1.2.0` | 2026-03-29 16:06 | — |
-| [magento2-module-chili-my-document](https://github.com/enobis-GmbH/magento2-module-chili-my-document) | `3.8.2` | 2026-04-14 14:23 | Add chili my document functionality to Magento2 |
+| [magento2-module-chili-my-document](https://github.com/enobis-GmbH/magento2-module-chili-my-document) | `3.8.3` | 2026-04-27 12:44 | Add chili my document functionality to Magento2 |
 | [magento2-module-cost-center](https://github.com/enobis-GmbH/magento2-module-cost-center) | `1.9.1` | 2026-04-09 11:19 | — |
 | [magento2-module-flyeralarm-connector](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector) | `1.1.1` | 2026-04-13 13:53 | Magento 2 Module for Integration of Flyeralarm with Magento2 |
 | [magento2-module-grafx-document-lifecycle](https://github.com/enobis-GmbH/magento2-module-grafx-document-lifecycle) | `1.1.2` | 2026-04-09 12:09 | Module to record, manage and update grafx documents and their templates |
-| [magento2-module-grafx-studio](https://github.com/enobis-GmbH/magento2-module-grafx-studio) | `1.1.2` | 2026-04-09 12:23 | Implements Magento2-Connector for GrafxStudio |
+| [magento2-module-grafx-studio](https://github.com/enobis-GmbH/magento2-module-grafx-studio) | `1.1.3` | 2026-04-27 09:59 | Implements Magento2-Connector for GrafxStudio |
 | [magento2-module-grafx-studio-media-connector](https://github.com/enobis-GmbH/magento2-module-grafx-studio-media-connector) | `0.9.0` | 2024-09-09 08:59 | Adds media connector for grafx studio to Magento2 |
 | [magento2-module-order-workflow](https://github.com/enobis-GmbH/magento2-module-order-workflow) | `1.11.1` | 2026-04-09 12:46 | — |
 | [magento2-module-quota](https://github.com/enobis-GmbH/magento2-module-quota) | `1.2.21` | 2026-04-09 13:21 | — |
@@ -1553,13 +1553,14 @@ Add chili headless functionality to Magento2. Allows common chili tasks via REST
 
 Add chili my document functionality to Magento2
 
-**Current version:** `3.8.2` (released 2026-04-14 14:23)
+**Current version:** `3.8.3` (released 2026-04-27 12:44)
 
 <details>
 <summary>Version History (100 releases)</summary>
 
 | Version | Date |
 |---------|------|
+| `3.8.3` | 2026-04-27 12:44 |
 | `3.8.2` | 2026-04-14 14:23 |
 | `3.8.1` | 2026-04-09 09:56 |
 | `3.8.0` | 2026-03-16 10:45 |
@@ -1659,7 +1660,6 @@ Add chili my document functionality to Magento2
 | `3.4.0` | 2024-03-06 15:53 |
 | `3.3.32` | 2024-03-04 12:50 |
 | `3.3.31` | 2024-02-28 11:18 |
-| `3.3.30` | 2024-02-26 15:37 |
 
 </details>
 
@@ -1668,6 +1668,8 @@ Add chili my document functionality to Magento2
 
 | SHA | Date | Message | Author |
 |-----|------|---------|--------|
+| [`68825de`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/68825de48f1180fd9f8c306524eceb40fffe5f2b) | 2026-04-27 12:44 | Version 3.8.3 | markusgoering |
+| [`e250ce2`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/e250ce21f382af50f164deed4baee5f76f5adb5f) | 2026-04-27 12:43 | Add reference_id parameter to public mautic landingpage url | markusgoering |
 | [`66957b9`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/66957b99bfe12b219362a8b0ea6a38044446c77f) | 2026-04-14 14:23 | Version 3.8.2 | markusgoering |
 | [`7bd74a0`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/7bd74a0c9b26b75d58232178a058c4f995cf8665) | 2026-04-14 14:23 | Add open page button to digital output list | markusgoering |
 | [`da35e4f`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/da35e4fb48e534b85724f742b8ef19351127a4ab) | 2026-04-09 09:56 | Version: 3.8.1 | Adam Schurmann |
@@ -1716,8 +1718,6 @@ Add chili my document functionality to Magento2
 | [`ced9242`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/ced924287a80705c6bf8b899262e726360e9eacd) | 2025-09-26 09:47 | Update unit tests | Gunnar Papke |
 | [`d93dc62`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/d93dc62f80ef84c3807715d2871ee77e20e04cb9) | 2025-09-26 09:30 | Check actual grafx bundle support available for finish action modal | Gunnar Papke |
 | [`b36f2b0`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/b36f2b02cb112edb961c6a10dc941006df4cef75) | 2025-09-26 07:58 | Update unit tests | Gunnar Papke |
-| [`bc03c95`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/bc03c95ff2e130e9b5ad7e85055f7305d9880493) | 2025-09-26 07:56 | Add grafx bundle preconfigured support | Gunnar Papke |
-| [`ce67871`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/ce678714aa2c9c85bf6546deb4d08f1e91fec051) | 2025-09-25 13:58 | Update unit tests | Gunnar Papke |
 
 </details>
 
@@ -1981,13 +1981,14 @@ Module to record, manage and update grafx documents and their templates
 
 Implements Magento2-Connector for GrafxStudio
 
-**Current version:** `1.1.2` (released 2026-04-09 12:23)
+**Current version:** `1.1.3` (released 2026-04-27 09:59)
 
 <details>
 <summary>Version History (100 releases)</summary>
 
 | Version | Date |
 |---------|------|
+| `1.1.3` | 2026-04-27 09:59 |
 | `1.1.2` | 2026-04-09 12:23 |
 | `1.1.1` | 2026-03-13 13:51 |
 | `1.1.0` | 2026-03-11 14:31 |
@@ -2087,7 +2088,6 @@ Implements Magento2-Connector for GrafxStudio
 | `0.6.28` | 2025-10-27 11:50 |
 | `0.6.27` | 2025-10-23 05:39 |
 | `0.6.26` | 2025-10-22 13:37 |
-| `0.6.25` | 2025-10-21 16:20 |
 
 </details>
 
@@ -2096,6 +2096,8 @@ Implements Magento2-Connector for GrafxStudio
 
 | SHA | Date | Message | Author |
 |-----|------|---------|--------|
+| [`8abce4c`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/8abce4c3746172b27e30a2882c92f5f22a1c6f5e) | 2026-04-27 09:59 | Version 1.1.3 | markusgoering |
+| [`9a00cdd`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/9a00cdd8a0b441108f5c6d830615eb6d58ab8bef) | 2026-04-27 09:59 | Add missing _admin entry for preassignment of select product attribute | markusgoering |
 | [`89b4b65`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/89b4b650062bf855b5620e577bae4e470eda1bb8) | 2026-04-09 12:23 | Version: 1.1.2 | Adam Schurmann |
 | [`4676fcf`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/4676fcf041cbc959ad1c54a965596d8e8d305ec4) | 2026-04-09 12:21 | Logging removed from the module | Adam Schurmann |
 | [`6ee5483`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/6ee54835d3c7ff054b9d25481a541ccb15da66c3) | 2026-03-13 13:51 | Version: 1.1.1 | Adam Schurmann |
@@ -2144,8 +2146,6 @@ Implements Magento2-Connector for GrafxStudio
 | [`ca0c859`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/ca0c859d8153901560b4570047f60e41778caf39) | 2025-12-02 14:16 | Update unit tests | Gunnar Papke |
 | [`7d7be50`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/7d7be505d8892eed2efbcd17eaa1c0e8d409a00d) | 2025-12-02 14:16 | Add own `Enobis_GrafxStudio::grafx_studio` and `Enobis_GrafxStudio::grafx_studio_editor_integration` acl resource for backend | Gunnar Papke |
 | [`3b9f034`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/3b9f034aff602d0658d37783363d1fb0ce0a8402) | 2025-12-02 14:16 | Update unit tests | Gunnar Papke |
-| [`4cb536c`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/4cb536cdfa96efc32a9354620fa507593a73cdef) | 2025-12-02 14:16 | Add first implementation grafx document lifecycle edit document support | Gunnar Papke |
-| [`764b7cf`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/764b7cfb3e0f1ad70afbeebb9eaa4624ef8469a0) | 2025-12-02 14:16 | Cleanup | Gunnar Papke |
 
 </details>
 
