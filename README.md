@@ -2,7 +2,7 @@
 
 Overview of all Magento 2 extensions with current versions and changelogs.
 
-*Last updated: 2026-04-28 10:37 UTC — 24 extension(s)*
+*Last updated: 2026-04-29 06:05 UTC — 24 extension(s)*
 
 ## Extensions Overview
 
@@ -15,11 +15,11 @@ Overview of all Magento 2 extensions with current versions and changelogs.
 | [magento2-module-chili-document-lifecycle](https://github.com/enobis-GmbH/magento2-module-chili-document-lifecycle) | `1.1.4` | 2026-04-09 08:23 | Module to record, manage and update Chili documents and their templates |
 | [magento2-module-chili-document-sharing-and-collaboration](https://github.com/enobis-GmbH/magento2-module-chili-document-sharing-and-collaboration) | `0.17.3` | 2026-04-09 08:30 | document sharing and collaboration addon for enobis/module-chili-my-document |
 | [magento2-module-chili-document-workflow](https://github.com/enobis-GmbH/magento2-module-chili-document-workflow) | `3.2.1` | 2026-04-08 13:49 | Add chili document workflow functionality to Magento2 |
-| [magento2-module-chili-editor](https://github.com/enobis-GmbH/magento2-module-chili-editor) | `3.2.6` | 2026-04-16 12:37 | Implements Magento2-Connector for ChiliPublish |
+| [magento2-module-chili-editor](https://github.com/enobis-GmbH/magento2-module-chili-editor) | `3.2.7` | 2026-04-28 15:03 | Implements Magento2-Connector for ChiliPublish |
 | [magento2-module-chili-editor-webhook](https://github.com/enobis-GmbH/magento2-module-chili-editor-webhook) | `1.1.1` | 2026-03-13 15:29 | Magento 2 Module to Add Chili Events to Mageplaza Webhook Module |
 | [magento2-module-chili-headless](https://github.com/enobis-GmbH/magento2-module-chili-headless) | `0.3.3` | 2025-02-07 14:17 | Add chili headless functionality to Magento2. Allows common chili tasks via REST web api, e.g. create chili document, create document and directly consume outputs as pdf. |
 | [magento2-module-chili-integration-workfront](https://github.com/enobis-GmbH/magento2-module-chili-integration-workfront) | `1.2.0` | 2026-03-29 16:06 | — |
-| [magento2-module-chili-my-document](https://github.com/enobis-GmbH/magento2-module-chili-my-document) | `3.8.3` | 2026-04-27 12:44 | Add chili my document functionality to Magento2 |
+| [magento2-module-chili-my-document](https://github.com/enobis-GmbH/magento2-module-chili-my-document) | `3.8.4` | 2026-04-28 12:16 | Add chili my document functionality to Magento2 |
 | [magento2-module-cost-center](https://github.com/enobis-GmbH/magento2-module-cost-center) | `1.9.1` | 2026-04-09 11:19 | — |
 | [magento2-module-flyeralarm-connector](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector) | `1.1.1` | 2026-04-13 13:53 | Magento 2 Module for Integration of Flyeralarm with Magento2 |
 | [magento2-module-grafx-document-lifecycle](https://github.com/enobis-GmbH/magento2-module-grafx-document-lifecycle) | `1.1.2` | 2026-04-09 12:09 | Module to record, manage and update grafx documents and their templates |
@@ -483,11 +483,13 @@ Add chili document workflow functionality to Magento2
 
 Implements Magento2-Connector for ChiliPublish
 
-**Current version:** `3.2.6` (released 2026-04-16 12:37)
+**Current version:** `3.2.7` (released 2026-04-28 15:03)
 
 <details>
 <summary>Commit History (50 commits)</summary>
 
+- [`45fc722`](https://github.com/enobis-GmbH/magento2-module-chili-editor/commit/45fc7228ba96c7b32c5924af1e82d067630eca38) 2026-04-28 15:03 — **markusgoering**<br>Version 3.2.7<br>Add digital_output_wishlist_update_after event
+- [`71de7f8`](https://github.com/enobis-GmbH/magento2-module-chili-editor/commit/71de7f89d5b8bea5a7e7aca9d7969de22b9665ea) 2026-04-28 15:02 — **markusgoering**<br>Add digital_output_wishlist_update_after event
 - [`755cd00`](https://github.com/enobis-GmbH/magento2-module-chili-editor/commit/755cd00b639ce6b3337b2464a2ecaa6246a5c2a4) 2026-04-16 12:37 — **Adam Schurmann**<br>Version: 3.2.6<br>- JavaScript async issues resolved<br>- Check whether HTML entities are set in the CustomOptions
 - [`48c8c00`](https://github.com/enobis-GmbH/magento2-module-chili-editor/commit/48c8c00ab7a183cfd68058d0e8f76f928cee24d3) 2026-04-16 12:34 — **Adam Schurmann**<br>JavaScript async issues resolved
 - [`a79fae6`](https://github.com/enobis-GmbH/magento2-module-chili-editor/commit/a79fae6530f6d545c2baf6b6408e1060383a609e) 2026-04-15 12:53 — **Adam Schurmann**<br>Check whether HTML entities are set in the CustomOptions
@@ -536,8 +538,6 @@ Implements Magento2-Connector for ChiliPublish
 - [`ebbaee5`](https://github.com/enobis-GmbH/magento2-module-chili-editor/commit/ebbaee54d0ed11f22471f2082028b2a8e6a105b4) 2025-12-18 16:29 — **Markus Göring**<br>Fix product attributes with used_for_chili should always work, and not only when also the flag is_user_defined is set<br>(Previously it was not possible to use attributes like e.g. sku or project_id for chili documents)
 - [`5eb3abf`](https://github.com/enobis-GmbH/magento2-module-chili-editor/commit/5eb3abf7bfd2d2da051d2de12fd03c9e06357fbf) 2025-12-18 11:39 — **Gunnar Papke**<br>Version 3.2.0-rc2<br><br>Handle `chili_editor/admin/*` system configuration for edit document in backend<br>Add `chili_editor/admin/*` system configurations<br>Add chili document lifecycle support to edit document in backend<br><br>#14322
 - [`78245eb`](https://github.com/enobis-GmbH/magento2-module-chili-editor/commit/78245ebe0af52084e2c34e150abdd181c3d76588) 2025-12-18 11:38 — **Gunnar Papke**<br>Adjust code style
-- [`3e32527`](https://github.com/enobis-GmbH/magento2-module-chili-editor/commit/3e325279de7f11faa7770d2b292db9929e2bca36) 2025-12-18 10:58 — **Gunnar Papke**<br>Update unit tests<br><br>Extend unit tests for<br>- Handle `chili_editor/admin/*` system configuration for edit document in backend
-- [`6a9b83a`](https://github.com/enobis-GmbH/magento2-module-chili-editor/commit/6a9b83aa5e0815acd9dbeac0708ddd25856a13bf) 2025-12-18 10:57 — **Gunnar Papke**<br>Handle `chili_editor/admin/*` system configuration for edit document in backend
 
 </details>
 
@@ -714,11 +714,13 @@ Add chili headless functionality to Magento2. Allows common chili tasks via REST
 
 Add chili my document functionality to Magento2
 
-**Current version:** `3.8.3` (released 2026-04-27 12:44)
+**Current version:** `3.8.4` (released 2026-04-28 12:16)
 
 <details>
 <summary>Commit History (50 commits)</summary>
 
+- [`82c28b1`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/82c28b1fd8c902a6afaa30afa5cc6c8ce1552666) 2026-04-28 12:16 — **markusgoering**<br>Version 3.8.4<br>Add hide download function
+- [`da50520`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/da50520ed3cfac2a3c2f897b4f20bbdabf386fb5) 2026-04-28 12:15 — **markusgoering**<br>Add hide download function
 - [`68825de`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/68825de48f1180fd9f8c306524eceb40fffe5f2b) 2026-04-27 12:44 — **markusgoering**<br>Version 3.8.3<br>Add reference_id parameter to public mautic landingpage url<br>Add open page translations
 - [`e250ce2`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/e250ce21f382af50f164deed4baee5f76f5adb5f) 2026-04-27 12:43 — **markusgoering**<br>Add reference_id parameter to public mautic landingpage url<br>Add open page translations
 - [`66957b9`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/66957b99bfe12b219362a8b0ea6a38044446c77f) 2026-04-14 14:23 — **markusgoering**<br>Version 3.8.2<br>Add open page button to digital output list
@@ -767,8 +769,6 @@ Add chili my document functionality to Magento2
 - [`87966d9`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/87966d9418be9bed0625a68e27efe9e54c765bf6) 2025-09-26 09:55 — **Gunnar Papke**<br>Merge branch 'grafx-bundle-default-mode-finish-naming' into fixes
 - [`0fb0947`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/0fb09477638fe78c0a07570005b2c6267d5c00bd) 2025-09-26 09:52 — **Gunnar Papke**<br>Remove unneeded method call
 - [`ced9242`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/ced924287a80705c6bf8b899262e726360e9eacd) 2025-09-26 09:47 — **Gunnar Papke**<br>Update unit tests
-- [`d93dc62`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/d93dc62f80ef84c3807715d2871ee77e20e04cb9) 2025-09-26 09:30 — **Gunnar Papke**<br>Check actual grafx bundle support available for finish action modal
-- [`b36f2b0`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/b36f2b02cb112edb961c6a10dc941006df4cef75) 2025-09-26 07:58 — **Gunnar Papke**<br>Update unit tests
 
 </details>
 
