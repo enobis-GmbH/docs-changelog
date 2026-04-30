@@ -2,7 +2,7 @@
 
 Overview of all Magento 2 extensions with current versions and changelogs.
 
-*Last updated: 2026-04-29 06:05 UTC — 24 extension(s)*
+*Last updated: 2026-04-30 06:09 UTC — 24 extension(s)*
 
 ## Extensions Overview
 
@@ -11,7 +11,7 @@ Overview of all Magento 2 extensions with current versions and changelogs.
 | [magento2-module-booking](https://github.com/enobis-GmbH/magento2-module-booking) | `1.7.2` | 2026-04-09 07:24 | — |
 | [magento2-module-budget](https://github.com/enobis-GmbH/magento2-module-budget) | `1.20.1` | 2026-04-09 07:39 | — |
 | [magento2-module-campaign](https://github.com/enobis-GmbH/magento2-module-campaign) | `2.7.2` | 2026-04-08 13:28 | — |
-| [magento2-module-chili-data-connector](https://github.com/enobis-GmbH/magento2-module-chili-data-connector) | `1.3.3` | 2026-04-26 12:08 | Module for generating data compilations for Chilipublisher & GraFxStudio |
+| [magento2-module-chili-data-connector](https://github.com/enobis-GmbH/magento2-module-chili-data-connector) | `1.3.5` | 2026-04-29 15:28 | Module for generating data compilations for Chilipublisher & GraFxStudio |
 | [magento2-module-chili-document-lifecycle](https://github.com/enobis-GmbH/magento2-module-chili-document-lifecycle) | `1.1.4` | 2026-04-09 08:23 | Module to record, manage and update Chili documents and their templates |
 | [magento2-module-chili-document-sharing-and-collaboration](https://github.com/enobis-GmbH/magento2-module-chili-document-sharing-and-collaboration) | `0.17.3` | 2026-04-09 08:30 | document sharing and collaboration addon for enobis/module-chili-my-document |
 | [magento2-module-chili-document-workflow](https://github.com/enobis-GmbH/magento2-module-chili-document-workflow) | `3.2.1` | 2026-04-08 13:49 | Add chili document workflow functionality to Magento2 |
@@ -227,11 +227,15 @@ Overview of all Magento 2 extensions with current versions and changelogs.
 
 Module for generating data compilations for Chilipublisher & GraFxStudio
 
-**Current version:** `1.3.3` (released 2026-04-26 12:08)
+**Current version:** `1.3.5` (released 2026-04-29 15:28)
 
 <details>
 <summary>Commit History (50 commits)</summary>
 
+- [`2c423c7`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/2c423c722be3e69ee432af806c1fed58c8c9b651) 2026-04-29 15:28 — **markusgoering**<br>Version 1.3.5<br>Add translations
+- [`f8682c5`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/f8682c5132c2592beed31bce9f5e6817d3f12520) 2026-04-29 15:28 — **markusgoering**<br>Add translations
+- [`465ddf1`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/465ddf1233c6b294f431dee51fb6a48bfd6fe4ff) 2026-04-29 13:49 — **markusgoering**<br>Version 1.3.4<br>Add snippet_image_attribute and snippet_image_value parameter to snippetfeed URL<br><br>This introduces two new URL parameters to the snippetfeed:<br>  * snippet_image_value (e.g., https%3A%2F%2Fexample.com%2Fmedia%2Flogo.jpg)<br>  * snippet_image_attribute (e.g., imagefield)<br><br>When both parameters are specified, the dataset value mapped by<br>`snippet_image_attribute` takes priority, as long as it returns<br>a non-empty value in the dataset.
+- [`1315f77`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/1315f77f324caae78855a42ced566777b133318d) 2026-04-29 13:48 — **markusgoering**<br>Add snippet_image_attribute and snippet_image_value to snippetfeed URL<br><br>This introduces two new URL parameters to the snippetfeed:<br>  * snippet_image_value (e.g., https%3A%2F%2Fexample.com%2Fmedia%2Flogo.jpg)<br>  * snippet_image_attribute (e.g., imagefield)<br><br>When both parameters are specified, the dataset value mapped by<br>`snippet_image_attribute` takes priority, as long as it returns<br>a non-empty value in the dataset.
 - [`b86421a`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/b86421a00960877409caa2141dec063bc9ca1f2a) 2026-04-26 12:08 — **markusgoering**<br>Version 1.3.3<br>Add data_token support for configure modes (draft, quote, document workflow ...)
 - [`bb9eb21`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/bb9eb21e6b0d781b7ba9f454134bb1c5539506a8) 2026-04-26 12:08 — **markusgoering**<br>Add data_token support for configure modes (draft, quote, document workflow ...)
 - [`c6bfee3`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/c6bfee31e6bbb6e07ab18eec2dc228701050db6b) 2026-04-25 13:56 — **markusgoering**<br>Version 1.3.2<br>Optimize the data/snippet-selection, document save/reload behavior<br>Change label from close to apply
@@ -278,10 +282,6 @@ Module for generating data compilations for Chilipublisher & GraFxStudio
 - [`2343341`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/23433417cef9de43c45a2643b9371b3d46466620) 2025-10-10 09:47 — **Markus Göring**<br>Add remote_data_format to dataspecification format<br>Add json support for grafx studio remote_url search result
 - [`136d0ea`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/136d0ea9977514bbb05833445b2ab40a1672acec) 2025-10-06 19:42 — **Markus Göring**<br>Version 0.9.26-rc5<br>Add remote_url to dataspecification format<br>Add xml support for grafx studio remote_url search result<br>Optimize collapsed/expanded search result tab, collapse only when no remote_url is given
 - [`44e71dd`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/44e71dd44c93dd4d26563afd848b2a7ddeb34853) 2025-10-06 19:41 — **Markus Göring**<br>Add remote_url to dataspecification format<br>Add xml support for grafx studio remote_url search result<br>Optimize collapsed/expanded search result tab, collapse only when no remote_url is given
-- [`c9680a5`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/c9680a5abe525550381b53a8690bd218e1b328a7) 2025-10-02 14:08 — **Markus Göring**<br>Version 0.9.26-rc4<br>Fix load-dialg and save-dialog errr (nothing happend on click)
-- [`a2886d2`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/a2886d2bf70b8da12eb291a8ae299d74db56e72b) 2025-10-02 14:05 — **Markus Göring**<br>Fix load and save dialog button clicks did not work
-- [`b28fe0e`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/b28fe0e6c5d54c49cc2665836a044e6836fbda7c) 2025-10-01 21:59 — **Markus Göring**<br>Version 0.9.26-rc3<br>Optimize save specification_id to datacomilation<br>Optimize initial state of search tab to closed for custom data specifications<br>Optimize serve empty record list instead of nothing when no specific data compilation is requested
-- [`83fd177`](https://github.com/enobis-GmbH/magento2-module-chili-data-connector/commit/83fd177b23b623dc77abf6b63f092bd7e9ce81bb) 2025-10-01 21:59 — **Markus Göring**<br>Optimize save specification_id to datacomilation<br>Optimize initial state of search tab to closed for custom data specifications<br>Optimize serve empty record list instead of nothing when no specific data compilation is requested
 
 </details>
 
