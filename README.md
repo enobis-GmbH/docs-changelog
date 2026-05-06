@@ -2,14 +2,14 @@
 
 Overview of all Magento 2 extensions with current versions and changelogs.
 
-*Last updated: 2026-05-05 05:48 UTC — 24 extension(s)*
+*Last updated: 2026-05-06 06:10 UTC — 24 extension(s)*
 
 ## Extensions Overview
 
 | Extension | Version | Released | Description |
 |-----------|---------|----------|-------------|
 | [magento2-module-booking](https://github.com/enobis-GmbH/magento2-module-booking) | `1.7.2` | 2026-04-09 07:24 | — |
-| [magento2-module-budget](https://github.com/enobis-GmbH/magento2-module-budget) | `1.20.1` | 2026-04-09 07:39 | — |
+| [magento2-module-budget](https://github.com/enobis-GmbH/magento2-module-budget) | `1.21.0` | 2026-05-05 08:31 | — |
 | [magento2-module-campaign](https://github.com/enobis-GmbH/magento2-module-campaign) | `2.7.2` | 2026-04-08 13:28 | — |
 | [magento2-module-chili-data-connector](https://github.com/enobis-GmbH/magento2-module-chili-data-connector) | `1.3.5` | 2026-04-29 15:28 | Module for generating data compilations for Chilipublisher & GraFxStudio |
 | [magento2-module-chili-document-lifecycle](https://github.com/enobis-GmbH/magento2-module-chili-document-lifecycle) | `1.1.4` | 2026-04-09 08:23 | Module to record, manage and update Chili documents and their templates |
@@ -101,7 +101,7 @@ Overview of all Magento 2 extensions with current versions and changelogs.
 
 ### [magento2-module-budget](https://github.com/enobis-GmbH/magento2-module-budget)
 
-**Current version:** `1.20.1` (released 2026-04-09 07:39)
+**Current version:** `1.21.0` (released 2026-05-05 08:31)
 
 <details>
 <summary>Commit History (50 commits)</summary>
