@@ -2,7 +2,7 @@
 
 Overview of all Magento 2 extensions with current versions and changelogs.
 
-*Last updated: 2026-05-18 07:01 UTC — 24 extension(s)*
+*Last updated: 2026-05-19 06:53 UTC — 24 extension(s)*
 
 ## Extensions Overview
 
@@ -19,7 +19,7 @@ Overview of all Magento 2 extensions with current versions and changelogs.
 | [magento2-module-chili-editor-webhook](https://github.com/enobis-GmbH/magento2-module-chili-editor-webhook) | `1.1.1` | 2026-03-13 15:29 | Magento 2 Module to Add Chili Events to Mageplaza Webhook Module |
 | [magento2-module-chili-headless](https://github.com/enobis-GmbH/magento2-module-chili-headless) | `0.3.3` | 2025-02-07 14:17 | Add chili headless functionality to Magento2. Allows common chili tasks via REST web api, e.g. create chili document, create document and directly consume outputs as pdf. |
 | [magento2-module-chili-integration-workfront](https://github.com/enobis-GmbH/magento2-module-chili-integration-workfront) | `1.2.0` | 2026-03-29 16:06 | — |
-| [magento2-module-chili-my-document](https://github.com/enobis-GmbH/magento2-module-chili-my-document) | `3.8.4` | 2026-04-28 12:16 | Add chili my document functionality to Magento2 |
+| [magento2-module-chili-my-document](https://github.com/enobis-GmbH/magento2-module-chili-my-document) | `3.8.5` | 2026-05-19 05:46 | Add chili my document functionality to Magento2 |
 | [magento2-module-cost-center](https://github.com/enobis-GmbH/magento2-module-cost-center) | `1.9.1` | 2026-04-09 11:19 | — |
 | [magento2-module-flyeralarm-connector](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector) | `1.1.1` | 2026-04-13 13:53 | Magento 2 Module for Integration of Flyeralarm with Magento2 |
 | [magento2-module-grafx-document-lifecycle](https://github.com/enobis-GmbH/magento2-module-grafx-document-lifecycle) | `1.1.2` | 2026-04-09 12:09 | Module to record, manage and update grafx documents and their templates |
@@ -714,11 +714,13 @@ Add chili headless functionality to Magento2. Allows common chili tasks via REST
 
 Add chili my document functionality to Magento2
 
-**Current version:** `3.8.4` (released 2026-04-28 12:16)
+**Current version:** `3.8.5` (released 2026-05-19 05:46)
 
 <details>
 <summary>Commit History (50 commits)</summary>
 
+- [`bdd3fd0`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/bdd3fd08766dc40f97358a5b6799993f2d176324) 2026-05-19 05:46 — **Adam Schurmann**<br>Version: 3.8.5<br>- CSS adjustments for document names in various lists and email templates
+- [`05fb492`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/05fb492cd3fd498fc52a2c685b7a4567d58e16cd) 2026-05-19 05:44 — **Adam Schurmann**<br>- CSS adjustments for document names in various lists and email templates
 - [`82c28b1`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/82c28b1fd8c902a6afaa30afa5cc6c8ce1552666) 2026-04-28 12:16 — **markusgoering**<br>Version 3.8.4<br>Add hide download function
 - [`da50520`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/da50520ed3cfac2a3c2f897b4f20bbdabf386fb5) 2026-04-28 12:15 — **markusgoering**<br>Add hide download function
 - [`68825de`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/68825de48f1180fd9f8c306524eceb40fffe5f2b) 2026-04-27 12:44 — **markusgoering**<br>Version 3.8.3<br>Add reference_id parameter to public mautic landingpage url<br>Add open page translations
@@ -767,8 +769,6 @@ Add chili my document functionality to Magento2
 - [`9e1e340`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/9e1e340993dc9fd7324eee51e8d018653a6bddb5) 2025-09-26 13:09 — **Gunnar Papke**<br>Tweak code
 - [`8fbf264`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/8fbf264d8d5af46877ac5f0daaf995061cf2a6c0) 2025-09-26 12:30 — **Gunnar Papke**<br>Update unit tests
 - [`87966d9`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/87966d9418be9bed0625a68e27efe9e54c765bf6) 2025-09-26 09:55 — **Gunnar Papke**<br>Merge branch 'grafx-bundle-default-mode-finish-naming' into fixes
-- [`0fb0947`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/0fb09477638fe78c0a07570005b2c6267d5c00bd) 2025-09-26 09:52 — **Gunnar Papke**<br>Remove unneeded method call
-- [`ced9242`](https://github.com/enobis-GmbH/magento2-module-chili-my-document/commit/ced924287a80705c6bf8b899262e726360e9eacd) 2025-09-26 09:47 — **Gunnar Papke**<br>Update unit tests
 
 </details>
 
