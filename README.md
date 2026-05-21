@@ -2,7 +2,7 @@
 
 Overview of all Magento 2 extensions with current versions and changelogs.
 
-*Last updated: 2026-05-20 06:53 UTC — 24 extension(s)*
+*Last updated: 2026-05-21 06:57 UTC — 24 extension(s)*
 
 ## Extensions Overview
 
@@ -23,9 +23,9 @@ Overview of all Magento 2 extensions with current versions and changelogs.
 | [magento2-module-cost-center](https://github.com/enobis-GmbH/magento2-module-cost-center) | `1.9.1` | 2026-04-09 11:19 | — |
 | [magento2-module-flyeralarm-connector](https://github.com/enobis-GmbH/magento2-module-flyeralarm-connector) | `1.1.1` | 2026-04-13 13:53 | Magento 2 Module for Integration of Flyeralarm with Magento2 |
 | [magento2-module-grafx-document-lifecycle](https://github.com/enobis-GmbH/magento2-module-grafx-document-lifecycle) | `1.1.2` | 2026-04-09 12:09 | Module to record, manage and update grafx documents and their templates |
-| [magento2-module-grafx-studio](https://github.com/enobis-GmbH/magento2-module-grafx-studio) | `1.1.3` | 2026-04-27 09:59 | Implements Magento2-Connector for GrafxStudio |
+| [magento2-module-grafx-studio](https://github.com/enobis-GmbH/magento2-module-grafx-studio) | `1.1.4` | 2026-05-20 14:24 | Implements Magento2-Connector for GrafxStudio |
 | [magento2-module-grafx-studio-media-connector](https://github.com/enobis-GmbH/magento2-module-grafx-studio-media-connector) | `0.9.0` | 2024-09-09 08:59 | Adds media connector for grafx studio to Magento2 |
-| [magento2-module-order-workflow](https://github.com/enobis-GmbH/magento2-module-order-workflow) | `1.11.1` | 2026-04-09 12:46 | — |
+| [magento2-module-order-workflow](https://github.com/enobis-GmbH/magento2-module-order-workflow) | `1.11.2` | 2026-05-20 12:31 | — |
 | [magento2-module-quota](https://github.com/enobis-GmbH/magento2-module-quota) | `1.2.21` | 2026-04-09 13:21 | — |
 | [magento2-module-sales-attachments](https://github.com/enobis-GmbH/magento2-module-sales-attachments) | `1.9.1` | 2026-04-13 10:07 | — |
 | [magento2-module-sales-quantity-limit](https://github.com/enobis-GmbH/magento2-module-sales-quantity-limit) | `1.2.1` | 2026-04-09 13:37 | — |
@@ -939,11 +939,13 @@ Module to record, manage and update grafx documents and their templates
 
 Implements Magento2-Connector for GrafxStudio
 
-**Current version:** `1.1.3` (released 2026-04-27 09:59)
+**Current version:** `1.1.4` (released 2026-05-20 14:24)
 
 <details>
 <summary>Commit History (50 commits)</summary>
 
+- [`0fc48b9`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/0fc48b93511fcd53de65da553411e49540b6d5d9) 2026-05-20 14:24 — **Adam Schurmann**<br>Version: 1.1.4<br>- CSS fix to make the toast-notification visible
+- [`a255708`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/a2557086cbc5ef9a2d7b9bb08f7100f3d682f88b) 2026-05-20 14:23 — **Adam Schurmann**<br>- CSS fix to make the toast-notification visible
 - [`8abce4c`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/8abce4c3746172b27e30a2882c92f5f22a1c6f5e) 2026-04-27 09:59 — **markusgoering**<br>Version 1.1.3<br>Add missing _admin entry for preassignment of select product attribute
 - [`9a00cdd`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/9a00cdd8a0b441108f5c6d830615eb6d58ab8bef) 2026-04-27 09:59 — **markusgoering**<br>Add missing _admin entry for preassignment of select product attribute
 - [`89b4b65`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/89b4b650062bf855b5620e577bae4e470eda1bb8) 2026-04-09 12:23 — **Adam Schurmann**<br>Version: 1.1.2<br>- Logging removed from the module
@@ -992,8 +994,6 @@ Implements Magento2-Connector for GrafxStudio
 - [`40b0590`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/40b05901183fe4e0aac9c51194c505ab367b1ff7) 2025-12-05 09:09 — **Gunnar Papke**<br>Fix grafx studio editor save button issue in backend
 - [`927d13e`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/927d13ece901de950d9eae3581dc8f198b4e2712) 2025-12-02 14:20 — **Gunnar Papke**<br>Version 1.1.0-rc1<br><br>Add backend grafx studio ui implementation
 - [`ca0c859`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/ca0c859d8153901560b4570047f60e41778caf39) 2025-12-02 14:16 — **Gunnar Papke**<br>Update unit tests
-- [`7d7be50`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/7d7be505d8892eed2efbcd17eaa1c0e8d409a00d) 2025-12-02 14:16 — **Gunnar Papke**<br>Add own `Enobis_GrafxStudio::grafx_studio` and `Enobis_GrafxStudio::grafx_studio_editor_integration` acl resource for backend
-- [`3b9f034`](https://github.com/enobis-GmbH/magento2-module-grafx-studio/commit/3b9f034aff602d0658d37783363d1fb0ce0a8402) 2025-12-02 14:16 — **Gunnar Papke**<br>Update unit tests
 
 </details>
 
@@ -1044,7 +1044,7 @@ Adds media connector for grafx studio to Magento2
 
 ### [magento2-module-order-workflow](https://github.com/enobis-GmbH/magento2-module-order-workflow)
 
-**Current version:** `1.11.1` (released 2026-04-09 12:46)
+**Current version:** `1.11.2` (released 2026-05-20 12:31)
 
 <details>
 <summary>Commit History (50 commits)</summary>
